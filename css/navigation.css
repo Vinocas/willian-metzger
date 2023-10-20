@@ -1,0 +1,32 @@
+#navbar{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
+
+#navbar ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+
+#navbar li{
+    font-size: 1.563rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#navbar li:hover{
+    transform: scale(1.1);
+}
+
+#navbar .contacts-icon img{
+    height: 25px;
+}
+
+
+.hamburger{
+    display: none;
+}

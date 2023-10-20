@@ -1,0 +1,55 @@
+#about{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: row;
+    padding: 0 350px;
+}
+
+#about h2{
+    font-size: 4.375rem;
+    color: var(--color-purple);
+}
+
+#about img:nth-child(2){
+    height: 600px;
+    border-radius: 100px;
+}
+
+#about-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-title p{
+    font-size: 1.875rem;
+}
+
+#about-title a:hover{
+    text-decoration: underline;
+}
+
+#about-text p{
+    font-size: 1.563rem;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+#about-title img{
+    width: 17px;
+}
+
+#location-experience{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-around;
+}
+
+#location-experience img{
+    height: 20px;
+}

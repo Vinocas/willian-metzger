@@ -1,0 +1,153 @@
+#content {
+    height: 100%;
+    background-color: var(--color-content-bg);
+    margin: 0 253px;
+    border-radius: 25px;
+}
+
+#content h3 {
+    color: var(--color-purple);
+    font-size: 3.125rem;
+}
+
+#skills p {
+    padding-top: 20px;
+}
+
+#skill-icons-container {
+    padding: 20px 73px;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
+
+#skill-icons-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.skill-icons img {
+    height: 70px;
+    filter: drop-shadow(4px 4px 4px black);
+}
+
+#tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tools ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 10px;
+    width: 900px;
+}
+
+#tools li:nth-child(1) {
+    width: 900px;
+}
+
+#tools li:nth-child(2) {
+    width: 452px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
+
+#skills li {
+    font-size: 1.875rem;
+    color: var(--color-white);
+}
+
+#skills ul img {
+    height: 40px;
+    margin-left: -40px;
+    padding-right: 5px;
+}
+
+#skills h3 {
+    margin-bottom: -20px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 30px 140px 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
+
+.project-title {
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title a:hover {
+    text-decoration: underline;
+}
+
+.project-title p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-title img {
+    width: 17px;
+}
+
+.project-content {
+    display: flex;
+    width: 1130px;
+    height: 650px;
+    gap: 130px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    cursor: pointer;
+}
+
+.project-content::-webkit-scrollbar-track {
+    border-radius: 50px;
+    background-color: #3C3C3C;
+}
+
+.project-content::-webkit-scrollbar {
+    height: 5px;
+}
+
+.project-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.project-content video {
+    scroll-snap-align: start;
+    border-radius: 25px;
+}
+
+.project-text h4 {
+    color: var(--color-white);
+    font-size: 1.875rem;
+    margin-top: 10px;
+}
+
+.project-text p {
+    text-align: justify;
+}
