@@ -6,27 +6,143 @@
     scroll-snap-type: y mandatory;
 }
 
-#navbar ul{
+.nav-menu {
     display: flex;
     gap: 70px;
     list-style: none;
 }
 
-#navbar li{
+.nav-item a{
     font-size: 1.563rem;
     font-weight: 500;
-    transition: 0.3s;
 }
 
-#navbar li:hover{
-    transform: scale(1.1);
+.nav-item a:hover{
+    color: var(--color-purple);
+}
+
+.contacts-icon{
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: space-around;
+    padding-top: 3px;
+    align-items: center;
+}
+
+.contacts-icon a:hover{
+    filter: invert(46%) sepia(85%) saturate(3722%) hue-rotate(235deg) brightness(98%) contrast(93%);
 }
 
 #navbar .contacts-icon img{
     height: 25px;
 }
 
+.nav-menu {
+    display: flex;
+    gap: 70px;
+}
 
-.hamburger{
+.nav-link {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.hamburger {
     display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: white;
+}
+
+@media (max-width: 979px){
+    .nav-item a{
+        font-size: 1.25rem;
+    }
+
+    #navbar .contacts-icon img{
+        height: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    #navbar{
+        padding-top: 30px;
+        justify-content: left;
+        scroll-snap-align: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        z-index: 999;
+        left: -100%;
+        gap: 30px;
+        padding-top: 48px;
+        flex-direction: column;
+        background-color: #040208;
+        width: 65vw;
+        height: 200vh;
+        text-align: center;
+        transition: 0.3s;
+        margin-top: -50px;
+    }
+
+    .contacts-icon{
+        position: fixed;
+        left: -100%;
+        padding: 20px;
+        top: 30%;
+        z-index: 9999;
+        border-top: solid 1px;
+        transition: 0.3s;
+        margin-top: -10px;
+    }
+
+    #navbar .contacts-icon img{
+        height: 25px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .contacts-icon.active{
+        left: 0;
+        width: 65vw;
+    }
+
+    .nav-item a{
+        font-size: 1.5rem;
+    }
+
+    .contacts-icon{
+        width: 40%;
+    }
 }

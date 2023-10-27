@@ -14,33 +14,27 @@
 
         <!-- Barra de navegação -->
         <nav id="navbar">
-            <ul>
-                <li>
-                    <a href="#top">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="#content">
+                <li class="nav-item">
+                    <a href="#content" class="nav-link">
                         Skills
                     </a>
                 </li>
-                <li>
-                    <a href="#projects">
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
                         Projects
                     </a>
                 </li>
-                <li>
-                    <a href="#about">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
                         About
                     </a>
                 </li>
-            </ul>
-
-            <ul class="contacts-icon">
-                <li><a href=""><img src="/assets/email.png" alt="E-mail"></a></li>
-                <li><a href=""><img src="/assets/linkedin.png" alt="LinkedIn"></a></li>
-                <li><a href=""><img src="/assets/twitter.png" alt="Twitter"></a></li>
             </ul>
 
             <div class="hamburger">
@@ -48,6 +42,12 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+
+            <ul class="contacts-icon">
+                <li><a href=""><img src="/assets/email.png" alt="E-mail"></a></li>
+                <li><a href=""><img src="/assets/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href=""><img src="/assets/twitter.png" alt="Twitter"></a></li>
+            </ul>
         </nav>
     </header>
 
@@ -103,6 +103,8 @@
                 <li>Project Management</li>
                 <li>Building projects from scratch</li>
                 <li>Building projects from templates and upgrading existing projects</li>
+            </ul>
+            <ul>
                 <p><img src="/assets/code.png" alt="Code tag inside a computer screen"><span id="text-highlight"> Coding
                         Skills</span></p>
                 <li>Experienced with Data Structures</li>
@@ -110,75 +112,126 @@
                 <li>Machine States</li>
                 <li>Shader Programming</li>
                 <li>Animation handling</li>
+            </ul>
+            <ul>
                 <p><img src="/assets/lamp.png" alt="Lamp on"><span id="text-highlight"> Illumination Skills</span></p>
-                <li>Lumen and Static lighting building</li>
+                <li>Lumen and Baked lighting based scene setup</li>
+                <li>Volumetric and Light probes setup</li>
+                <li>Realistic and Artistic lighting knowledge</li>
+                <li>Lightmap UV building</li>
+                <li>Deep Lighting debug</li>
             </ul>
         </div>
 
         <section id="projects">
-
             <div class="projects">
                 <div class="project-title">
                     <h3>Professional projects</h3>
-                    <p><a href="">Full portfolio <img src="/assets/link.png"
+                    <p><a href="">Full portfolio<img src="/assets/link.png"
                                 alt="Square with arrow pointing up diagonally"></a></p>
                 </div>
                 <div class="project-content">
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                </div>
-                <div class="project-text">
-                    <h4>Lorem ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam consequatur cum
-                        dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
+                            src="/assets/video1.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
+                            src="/assets/video2.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
+                            src="/assets/video1.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
+                            src="/assets/video2.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="projects">
                 <div class="project-title">
                     <h3>Personal projects</h3>
-                    <p><a href="">Full portfolio <img src="/assets/link.png"
+                    <p><a href="">Full portfolio<img src="/assets/link.png"
                                 alt="Square with arrow pointing up diagonally"></a></p>
                 </div>
                 <div class="project-content">
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
-                        src="/assets/video2.mp4"></video>
-                    <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
-                        src="/assets/video1.mp4"></video>
-                </div>
-                <div class="project-text">
-                    <h4>Lorem ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam consequatur
-                        cum
-                        dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
+                            src="/assets/video2.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
+                            src="/assets/video1.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video2poster.png" height="636px"
+                            src="/assets/video2.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video controls="controls" muted="muted" poster="/assets/video1poster.png" height="636px"
+                            src="/assets/video1.mp4"></video>
+                        <div class="project-text">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet. Eos dolorem natus ex laboriosam asperiores aut ullam
+                                consequatur cum
+                                dolor nemo nam veritatis amet At pariatur fugiat eum totam voluptates!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </section>
 
     <section id="about">
+
         <div id="about-text">
             <div id="about-title">
                 <h2>About me</h2>
-                <p><a href="">Résumé <img src="/assets/link.png" alt="Square with arrow pointing up diagonally"></a></p>
+                <p><a href="">Resume<img src="/assets/link.png" alt="Square with arrow pointing up diagonally"></a></p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis
                 condimentum.
@@ -197,11 +250,15 @@
         <footer>
             <h4>Tell me about your next project!</h4>
             <ul>
-                <li><a href=""></a><img src="" alt="E-mail"></li>
-                <li><a href=""></a><img src="" alt="LinkedIn"></li>
-                <li><a href=""></a><img src="" alt="Twitter"></li>
+                <li><a href=""><img src="/assets/email.png" alt="E-mail"></a></li>
+                <li><a href=""><img src="/assets/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href=""><img src="/assets/twitter.png" alt="Twitter"></a></li>
             </ul>
         </footer>
+
     </section>
+
+    <script src="/js/hamburger.js"></script>
 </body>
+
 </html>

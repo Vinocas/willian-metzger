@@ -2,6 +2,7 @@
 @import url(/css/navigation.css);
 @import url(/css/hero.css);
 @import url(/css/content.css);
+@import url(/css/projects.css);
 @import url(/css/about.css);
 
 * {
@@ -9,7 +10,6 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  transition: ease-in-out;
   font-family: Nunito Sans;
 }
 
@@ -20,7 +20,12 @@
   background: linear-gradient(0deg, rgba(13,10,20,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(13,10,20,1) 100%);
 }
 
+body{
+  padding: 0 50px;
+}
+
 html{
+  overflow-x: hidden;
   scroll-snap-type: y mandatory;
 }
 
@@ -56,4 +61,25 @@ p{
 #text-highlight{
   font-weight: bold;
   color: var(--color-purple);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px){
+  body{
+    padding: 0 30px
+  }
 }
