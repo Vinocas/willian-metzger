@@ -33,27 +33,27 @@ $(function () {
         //Tools
         $("#tools h3").text('Tools and Languages');
 
-        $("#tools ul li:nth-child(1) p").html('<span id="text-highlight">Unreal Engine 4 & 5</span> <br> Blueprints, C++, Python, Editor Utilities, High Quality ilumination, XR Projects, UMGs</p>');
-        $("#tools ul li:nth-child(2) p").html('<p><span id="text-highlight">Unity</span> <br>C#, JavaScript, Multiple Platforms</p>');
-        $("#tools ul li:nth-child(3) p").html('<p><span id="text-highlight">Godot</span> <br>GDScript, Level Design, 2D</p>');
+        $("#tools ul li:nth-child(1) p").html('<span id="text-highlight">Unreal Engine 4 & 5</span><br>Blueprints, C++, Python, Editor Utilities, High Quality ilumination, XR Projects, UMGs</p>');
+        $("#tools ul li:nth-child(2) p").html('<p><span id="text-highlight">Unity</span><br>C#, JavaScript, Multiple Platforms</p>');
+        $("#tools ul li:nth-child(3) p").html('<p><span id="text-highlight">Godot</span><br>GDScript, Level Design, 2D</p>');
 
         //Skills
         $("#skills h3").html('Main Skills');
 
-        $("#skills ul:nth-child(2) p").html('<span id="text-highlight"> Main Skills</span>');
+        $("#skills ul:nth-child(2) p").html('<span id="text-highlight">Main Skills</span>');
         $("#skills ul:nth-child(2) li:nth-child(2)").html('Workgroup');
         $("#skills ul:nth-child(2) li:nth-child(3)").html('Project Management');
         $("#skills ul:nth-child(2) li:nth-child(4)").html('Building projects from scratch');
         $("#skills ul:nth-child(2) li:nth-child(5)").html('Building projects from templates and upgrading existing projects');
 
-        $("#skills ul:nth-child(3) p").html('<span id="text-highlight"> Coding Skills</span>');
+        $("#skills ul:nth-child(3) p").html('<span id="text-highlight">Coding Skills</span>');
         $("#skills ul:nth-child(3) li:nth-child(2)").html('Experienced with Data Structures');
         $("#skills ul:nth-child(3) li:nth-child(3)").html('Pathfinding');
         $("#skills ul:nth-child(3) li:nth-child(4)").html('Machine States');
         $("#skills ul:nth-child(3) li:nth-child(5)").html('Shader Programming');
         $("#skills ul:nth-child(3) li:nth-child(6)").html('Animation handling');
 
-        $("#skills ul:nth-child(4) p").html('<span id="text-highlight"> Illumination Skills</span>');
+        $("#skills ul:nth-child(4) p").html('<span id="text-highlight">Illumination Skills</span>');
         $("#skills ul:nth-child(4) li:nth-child(2)").html('Lumen and Baked lighting based scene setup');
         $("#skills ul:nth-child(4) li:nth-child(3)").html('Volumetric and Light probes setup');
         $("#skills ul:nth-child(4) li:nth-child(4)").html('Realistic and Artistic lighting knowledge');
@@ -67,41 +67,41 @@ $(function () {
 
         //Professional Projects
         //Project 1
-        $('#projects h4:eq(0)').text('Professional projects 1');
-        $('#projects p:eq(1)').text('Professional projects text 1');
+        $('#projects h4:eq(0)').text('Professional project 1');
+        $('#projects p:eq(1)').text('Professional project text 1');
 
         //Project 2
-        $('#projects h4:eq(1)').text('Professional projects 2');
-        $('#projects p:eq(2)').text('Professional projects text 2');
+        $('#projects h4:eq(1)').text('Professional project 2');
+        $('#projects p:eq(2)').text('Professional project text 2');
 
         //Project 3
-        $('#projects h4:eq(2)').text('Professional projects 3');
-        $('#projects p:eq(3)').text('Professional projects text 3');
+        $('#projects h4:eq(2)').text('Professional project 3');
+        $('#projects p:eq(3)').text('Professional project text 3');
 
         //Project 4
-        $('#projects h4:eq(3)').text('Professional projects 4');
-        $('#projects p:eq(4)').text('Professional projects text 4');
+        $('#projects h4:eq(3)').text('Professional project 4');
+        $('#projects p:eq(4)').text('Professional project text 4');
 
         //Personal Projects
         //Project 1
-        $('#projects h4:eq(4)').text('Personal projects 1');
-        $('#projects p:eq(6)').text('Personal projects text 1');
+        $('#projects h4:eq(4)').text('Personal project 1');
+        $('#projects p:eq(6)').text('Personal project text 1');
 
         //Project 2
-        $('#projects h4:eq(5)').text('Personal projects 2');
-        $('#projects p:eq(7)').text('Personal projects text 2');
+        $('#projects h4:eq(5)').text('Personal project 2');
+        $('#projects p:eq(7)').text('Personal project text 2');
 
         //Project 3
-        $('#projects h4:eq(6)').text('Personal projects 3');
-        $('#projects p:eq(8)').text('Personal projects text 3');
+        $('#projects h4:eq(6)').text('Personal project 3');
+        $('#projects p:eq(8)').text('Personal project text 3');
 
         //Project 4
-        $('#projects h4:eq(7)').text('Personal projects 4');
-        $('#projects p:eq(9)').text('Personal projects text 4');
+        $('#projects h4:eq(7)').text('Personal project 4');
+        $('#projects p:eq(9)').text('Personal project text 4');
 
         //About
         $('#about-title h2').text('About me');
-        $('#about-title p').html('<p><a href="">Resume</a></p>');
+        $('#about-title p').html('<p><a href="/cv/Willian Metzger - CV en.pdf">Resume</a></p>');
         $('#location-experience p:eq(0)').text('Brazil');
         $('#location-experience p:eq(1)').text('4 yrs of experience');
 
@@ -136,27 +136,27 @@ $(function () {
         //Tools
         $("#tools h3").text('Ferramentas e Linguages');
 
-        $("#tools ul li:nth-child(1) p").html('<span id="text-highlight">Unreal Engine 4 & 5</span> <br> Blueprints, C++, Python, Utilitários do Editor, Iluminação de Alta Qualidade, Projetos de XR, UMGs</p>');
-        $("#tools ul li:nth-child(2) p").html('<p><span id="text-highlight">Unity</span> <br>C#, JavaScript, Multiplas Plataformas</p>');
-        $("#tools ul li:nth-child(3) p").html('<p><span id="text-highlight">Godot</span> <br>GDScript, Criação de Níveis, 2D</p>');
+        $("#tools ul li:nth-child(1) p").html('<span id="text-highlight">Unreal Engine 4 & 5</span><br>Blueprints, C++, Python, Utilitários do Editor, Iluminação de Alta Qualidade, Projetos de XR, UMGs</p>');
+        $("#tools ul li:nth-child(2) p").html('<p><span id="text-highlight">Unity</span><br>C#, JavaScript, Multiplas Plataformas</p>');
+        $("#tools ul li:nth-child(3) p").html('<p><span id="text-highlight">Godot</span><br>GDScript, Criação de Níveis, 2D</p>');
 
         //Skills
         $("#skills h3").html('Habilidades');
 
-        $("#skills ul:nth-child(2) p").html('<span id="text-highlight"> Habilidades Principais</span>');
+        $("#skills ul:nth-child(2) p").html('<span id="text-highlight">Habilidades Principais</span>');
         $("#skills ul:nth-child(2) li:nth-child(2)").html('Trabalho em equipe');
         $("#skills ul:nth-child(2) li:nth-child(3)").html('Gestão de projetos');
         $("#skills ul:nth-child(2) li:nth-child(4)").html('Construção de projetos do zero');
         $("#skills ul:nth-child(2) li:nth-child(5)").html('Construção de projetos a partir de modelos e atualização de projetos existentes');
 
-        $("#skills ul:nth-child(3) p").html('<span id="text-highlight"> Habilidades de Codificação</span>');
+        $("#skills ul:nth-child(3) p").html('<span id="text-highlight">Habilidades de Codificação</span>');
         $("#skills ul:nth-child(3) li:nth-child(2)").html('Experiência com estrutura de dados');
         $("#skills ul:nth-child(3) li:nth-child(3)").html('Navegação de caminho');
         $("#skills ul:nth-child(3) li:nth-child(4)").html('Estados de máquina');
         $("#skills ul:nth-child(3) li:nth-child(5)").html('Programação de Shader');
         $("#skills ul:nth-child(3) li:nth-child(6)").html('Manipulação de Animação');
 
-        $("#skills ul:nth-child(4) p").html('<span id="text-highlight"> Habilidades de Iluminação</span>');
+        $("#skills ul:nth-child(4) p").html('<span id="text-highlight">Habilidades de Iluminação</span>');
         $("#skills ul:nth-child(4) li:nth-child(2)").html('Configuração de cena baseada em Iluminação Lumen e Baked');
         $("#skills ul:nth-child(4) li:nth-child(3)").html('Configuração de sondas de luz e volumétricas');
         $("#skills ul:nth-child(4) li:nth-child(4)").html('Conhecimento em iluminação realista e artística');
@@ -204,7 +204,7 @@ $(function () {
 
         //About
         $('#about-title h2').text('Sobre mim');
-        $('#about-title p').html('<p><a href="">CV</a></p>');
+        $('#about-title p').html('<p><a href="/cv/Willian Metzger - CV pt-BR.pdf">CV</a></p>');
         $('#location-experience p:eq(0)').text('Brasil');
         $('#location-experience p:eq(1)').text('4 anos de exp.');
 

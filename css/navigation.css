@@ -7,15 +7,11 @@
     width: 80%;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
-    width: 70%;
+    gap: 20px;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -32,6 +28,7 @@ header{
     display: flex;
     list-style: none;
     width: 20%;
+    gap: 10px;
     justify-content: space-between;
     padding-top: 3px;
     align-items: center;
@@ -81,7 +78,7 @@ header{
     cursor: pointer;
 }
 
-.language-selected:after{
+.language-selected::after{
     content: '';
     display: inline-block;
     width: 30px;
@@ -92,11 +89,11 @@ header{
     margin-left: 10px;
 }
 
-.language-selected.change-br:after{
+.language-selected.change-br::after{
     background-image: url("https://flagsapi.com/BR/flat/64.png");
 }
 
-.language-selected.change-en:after{
+.language-selected.change-en::after{
     background-image: url("https://flagsapi.com/US/flat/64.png");
 }
 
@@ -134,7 +131,7 @@ a.en:hover{
     color: var(--color-purple);
 }
 
-a.br:before{
+a.br::before{
     content: '';
     display: inline-block;
     width: 25px;
@@ -146,7 +143,7 @@ a.br:before{
     vertical-align: -15%;
 }
 
-a.en:before{
+a.en::before{
     content: '';
     display: inline-block;
     width: 25px;
@@ -163,15 +160,14 @@ a.en:before{
         font-size: 1.25rem;
     }
 
+    .language-selected img{
+        height: 25px;
+        width: 25px;
+    }
+
     #navbar .contacts-icon img{
         height: 20px;
     }
-}
-
-@media (max-width: 1050px){
-}
-
-@media (max-width: 850px){
 }
 
 @media(max-width: 768px) {
@@ -200,10 +196,11 @@ a.en:before{
 
     .nav-menu {
         position: fixed;
-        z-index: 999;
         left: -100%;
+        z-index: 999;
         gap: 30px;
         padding-top: 48px;
+        padding-left: 50px;
         flex-direction: column;
         background-color: #040208;
         justify-content: initial;
@@ -212,6 +209,7 @@ a.en:before{
         text-align: center;
         transition: 0.3s;
         margin-top: -50px;
+
     }
 
     .contacts-icon{
@@ -220,11 +218,11 @@ a.en:before{
         padding: 20px;
         justify-content: center;
         gap: 40px;
-        top: 40%;
+        bottom: 0;
         z-index: 9999;
         border-top: solid 1px;
         transition: 0.3s;
-        margin-top: -10px;
+        margin-top: 10px;
     }
 
     #navbar .contacts-icon img{
@@ -251,7 +249,7 @@ a.en:before{
     .language{
         display: flex;
         justify-content: center;
-        width: 65vw;
+        margin-left: -15px;
     }
 
     .language ul{
