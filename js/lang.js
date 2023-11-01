@@ -166,7 +166,6 @@ $(function () {
         //Projects
         $(".projects:nth-child(1) h3").text('Projetos profissionais');
         $(".projects:nth-child(2) h3").text('Projetos pessoais');
-        $(".projects a").text('Portfólio completo');
 
         //Professional Projects
         //Project 1
