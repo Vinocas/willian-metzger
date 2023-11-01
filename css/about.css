@@ -44,9 +44,20 @@
     justify-content: space-between;
 }
 
-#about-title img {
+#about-title p{
+    margin-top: -10px;
+}
+
+#about-title a::after{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/link.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 20px;
-    padding-left: 5px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
 #location-experience {
@@ -55,8 +66,27 @@
     justify-content: space-around;
 }
 
-#location-experience img {
-    height: 20px;
+#location-experience p:nth-child(1)::before{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/gps.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#location-experience p:nth-child(2)::before{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/code2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 footer {
@@ -71,7 +101,6 @@ footer h4 {
     text-align: center;
     font-size: 1.25rem;
     color: var(--color-white);
-    width: 300px;
 }
 
 footer ul {
@@ -101,8 +130,8 @@ footer img:hover {
         font-size: 1.2rem;
     }
 
-    #about-title img{
-        width: 20px;
+    #about-title a::after{
+        width: 17px;
     }
 
     #about-text p{
@@ -117,7 +146,8 @@ footer img:hover {
         font-size: 1.2rem;
     }
 
-    #location-experience img{
+    #location-experience p:nth-child(1)::before, #location-experience p:nth-child(2)::before{
+        width: 20px;
         height: 20px;
     }
 }
@@ -131,7 +161,7 @@ footer img:hover {
         font-size: 0.8rem;
     }
 
-    #about-title img{
+    #about-title a::after{
         width: 16px;
     }
 
@@ -145,10 +175,6 @@ footer img:hover {
 
     #location-experience p{
         font-size: 1.2rem;
-    }
-
-    #location-experience img{
-        height: 20px;
     }
 }
 
@@ -167,8 +193,8 @@ footer img:hover {
         font-size: 0.5rem;
     }
 
-    #about-title img{
-        width: 16px;
+    #about-title a::after{
+        width: 15px;
     }
 
     #about-text p{
@@ -183,7 +209,8 @@ footer img:hover {
         font-size: 1rem;
     }
 
-    #location-experience img{
+    #location-experience p:nth-child(1)::before, #location-experience p:nth-child(2)::before{
+        width: 16px;
         height: 16px;
     }
 
@@ -211,7 +238,9 @@ footer img:hover {
         font-size: 0.5rem;
     }
 
-    #about-title img{
+    #about-title a::after{
+        margin-top: 5px;
+        margin-left: 5px;
         width: 12px;
     }
 
@@ -227,7 +256,7 @@ footer img:hover {
         font-size: 0.7rem;
     }
 
-    #location-experience img{
+    #location-experience p:nth-child(1)::before, #location-experience p:nth-child(2)::before{
         height: 12px;
     }
 }
@@ -241,8 +270,9 @@ footer img:hover {
         font-size: 0.4rem;
     }
 
-    #about-title img{
-        width: 12px;
+    #about-title a::after{
+        width: 10px;
+        margin-top: 8px;
     }
 
     #about-text p{
@@ -257,7 +287,7 @@ footer img:hover {
         font-size: 0.6rem;
     }
 
-    #location-experience img{
+    #location-experience p:nth-child(1)::before, #location-experience p:nth-child(2)::before{
         height: 10px;
     }
 }

@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 900px;
+    width: 950px;
 }
 
 #skills {
@@ -61,6 +61,7 @@
     padding-top: 40px;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
+    width: 950px;
 }
 
 #skills p {
@@ -76,7 +77,33 @@
     filter: drop-shadow(4px 4px 4px #000000);
 }
 
-#skills ul img {
+#core::before{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/brain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+#code::before{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/code.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+#illumination::before{
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/lamp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
     height: 30px;
 }
 
@@ -109,12 +136,17 @@
         margin-left: -20px;
     }
 
-    #skills ul img {
+    #skills{
+        width: 770px;
+    }
+
+    #core::before, #code::before, #illumination::before{
         height: 25px;
+        width: 25px;
     }
 
     #tools ul {
-        width: 770px;
+        width: 800px;
     }
 }
 
@@ -140,8 +172,13 @@
         margin-left: 4px;
     }
 
-    #skills ul img {
+    #core::before, #code::before, #illumination::before{
+        width: 20px;
         height: 20px;
+    }
+
+    #skills{
+        width: 615px;
     }
 
     #tools ul {
@@ -175,8 +212,13 @@
         margin-left: -23px;
     }
 
-    #skills ul img {
+    #core::before, #code::before, #illumination::before{
+        width: 15px;
         height: 15px;
+    }
+
+    #skills{
+        width: 430px;
     }
 
     #tools ul {
@@ -193,11 +235,11 @@
 
     #skills ul {
         align-items: center;
-        width: 300px;
+        margin-left: 30px;
     }
 
-    #skills ul {
-        margin-left: 30px;
+    #skills{
+        width: 320px;
     }
 }
 
@@ -221,8 +263,8 @@
         width: 250px;
     }
 
-    #skills ul {
-        width: 250px;
+    #skills{
+        width: 270px;
     }
 
     #skills li {
@@ -233,7 +275,8 @@
         margin-left: -22px;
     }
 
-    #skills ul img {
+    #core::before, #code::before, #illumination::before{
+        width: 15px;
         height: 15px;
     }
 }

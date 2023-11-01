@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/global.css">
     <title>Willian Metzger | Game Designer</title>
+    <link rel="icon" type="images/x-icon" href="/assets/alien.png" />
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <nav id="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">
+                    <a href="#top" class="nav-link">
                         Home
                     </a>
                 </li>
@@ -35,6 +36,15 @@
                         About
                     </a>
                 </li>
+                <div class="language">
+                    <div class="language-selected">
+                        <img src="/assets/mundo.png" alt="Ícone do globo terrestre.">
+                    </div>
+                    <ul>
+                        <li><a href="#" class="en">EN</a></li>
+                        <li><a href="#" class="br">PT</a></li>
+                    </ul>
+                </div>
             </ul>
 
             <div class="hamburger">
@@ -80,7 +90,7 @@
             <h3>Tools and Languages</h3>
             <ul>
                 <li>
-                    <p><span id="text-highlight">Unreal engine 4 & 5</span> <br>
+                    <p><span id="text-highlight">Unreal Engine 4 & 5</span> <br>
                         Blueprints, C++, Python, Editor Utilities, High Quality ilumination, XR Projects, UMGs</p>
                 </li>
                 <li>
@@ -89,7 +99,7 @@
                 </li>
                 <li>
                     <p><span id="text-highlight">Godot</span> <br>
-                        GDScript, level design, 2D</p>
+                        GDScript, Level Design, 2D</p>
                 </li>
             </ul>
         </div>
@@ -97,7 +107,7 @@
         <div id="skills">
             <h3>Main Skills</h3>
             <ul>
-                <p><img src="/assets/brain.png" alt="Lamp inside a head silhouette"><span id="text-highlight"> Core
+                <p id="core"><span id="text-highlight"> Core
                         Skills</span></p>
                 <li>Workgroup</li>
                 <li>Project Management</li>
@@ -105,7 +115,7 @@
                 <li>Building projects from templates and upgrading existing projects</li>
             </ul>
             <ul>
-                <p><img src="/assets/code.png" alt="Code tag inside a computer screen"><span id="text-highlight"> Coding
+                <p id="code"><span id="text-highlight"> Coding
                         Skills</span></p>
                 <li>Experienced with Data Structures</li>
                 <li>Pathfinding</li>
@@ -114,7 +124,7 @@
                 <li>Animation handling</li>
             </ul>
             <ul>
-                <p><img src="/assets/lamp.png" alt="Lamp on"><span id="text-highlight"> Illumination Skills</span></p>
+                <p id="illumination"><span id="text-highlight"> Illumination Skills</span></p>
                 <li>Lumen and Baked lighting based scene setup</li>
                 <li>Volumetric and Light probes setup</li>
                 <li>Realistic and Artistic lighting knowledge</li>
@@ -127,8 +137,7 @@
             <div class="projects">
                 <div class="project-title">
                     <h3>Professional projects</h3>
-                    <p><a href="">Full portfolio<img src="/assets/link.png"
-                                alt="Square with arrow pointing up diagonally"></a></p>
+                    <p><a href="">Full portfolio</a></p>
                 </div>
                 <div class="project-content">
                     <div class="project">
@@ -177,8 +186,7 @@
             <div class="projects">
                 <div class="project-title">
                     <h3>Personal projects</h3>
-                    <p><a href="">Full portfolio<img src="/assets/link.png"
-                                alt="Square with arrow pointing up diagonally"></a></p>
+                    <p><a href="">Full portfolio</a></p>
                 </div>
                 <div class="project-content">
                     <div class="project">
@@ -231,7 +239,7 @@
         <div id="about-text">
             <div id="about-title">
                 <h2>About me</h2>
-                <p><a href="">Resume<img src="/assets/link.png" alt="Square with arrow pointing up diagonally"></a></p>
+                <p><a href="">Resume</a></p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis
                 condimentum.
@@ -241,8 +249,8 @@
                 Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut
                 adipiscing.</p>
             <div id="location-experience">
-                <p><img src="/assets/gps.png" alt="Gps pin"> Brazil</p>
-                <p><img src="/assets/code2.png" alt="Diagonal slash inside a coding tag"> 4yrs of experience</p>
+                <p>Brazil</p>
+                <p>4yrs of experience</p>
             </div>
         </div>
         <img src="/assets/About-character.png" alt="Willian Metzger picture">
@@ -257,8 +265,13 @@
         </footer>
 
     </section>
-
+    <!-- URL jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Script do menu hamburger -->
     <script src="/js/hamburger.js"></script>
+    <!-- Script dos idiomas -->
+    <script src="/js/lang.js"></script>
 </body>
 
 </html>
