@@ -64,13 +64,13 @@
     width: 950px;
 }
 
-#skills p {
+#skills p{
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-#skills li {
+#skills li{
     margin-left: 36px;
     font-size: 1.875rem;
     color: var(--color-white);

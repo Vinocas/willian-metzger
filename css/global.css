@@ -22,7 +22,6 @@
 
 html{
   overflow-x: hidden;
-  scroll-snap-type: y mandatory;
 }
 
 html::-webkit-scrollbar-track {
@@ -31,7 +30,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 
 html::-webkit-scrollbar-thumb {

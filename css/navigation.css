@@ -1,17 +1,16 @@
 #navbar{
     display: flex;
     padding-top: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
-    width: 80%;
+    width: 100%;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 20px;
-    width: 60%;
+    gap: 60px;
     justify-content: space-between;
 }
 

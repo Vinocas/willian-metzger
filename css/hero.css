@@ -1,6 +1,6 @@
 #hero{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #name-hero{
@@ -23,9 +23,9 @@
 }
 
 #hero img{
-    width: 450px;
+    width: 650px;
     padding-top: 90px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 @media (max-width: 1315px){
@@ -38,7 +38,7 @@
     }
 
     #hero img{
-        width: 350px;
+        width: 450px;
     }
 }
 
@@ -55,7 +55,7 @@
 
     #hero img{
         padding-top: 50px;
-        width: 210px;
+        width: 300px;
     }
 }
 
@@ -71,7 +71,8 @@
 
     #hero img{
         padding-top: 30px;
-        width: 150px;
+        width: 250px;
+        margin-left: -50px;
     }
 }
 
@@ -108,7 +109,7 @@
     }
 
     #hero img{
-        width: 150px;
+        width: 200px;
         padding: 0;
         margin: auto;
     }
